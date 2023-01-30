@@ -1,4 +1,5 @@
-from tensorflow.python.keras.layers import Add, BatchNormalization, Conv2D, Dense, Flatten, Input, LeakyReLU, PReLU, Lambda
+from tensorflow.python.keras.layers import Add, Conv2D, Dense, Flatten, Input, LeakyReLU, PReLU, Lambda
+from keras.layers.normalization.batch_normalization import BatchNormalization
 from tensorflow.python.keras.models import Model
 from tensorflow.python.keras.applications.vgg19 import VGG19
 
